@@ -14,6 +14,11 @@
     <name>microservice-template</name>
     <description>microservice + k8s</description>
 
+    <modules>
+        <module>eureka-server</module>
+        <module>zuul-server</module>
+    </modules>
+
     <properties>
         <java.version>1.8</java.version>
     </properties>
